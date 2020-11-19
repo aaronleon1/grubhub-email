@@ -3,53 +3,232 @@ layout: index-layout
 subject: My Email Templates
 ---
 
-<spacer size="16"></spacer>
-
 <container>
+  <!--Start of header-->
+  <row class="collapse header">
+    <columns></columns>
+    <columns small="4" large="3" class="small-offset-4">
+      <center>
+        <a href="#"><img src="https://ci3.googleusercontent.com/proxy/62jiRBuwf8uk99Wqys4_pIvM1PYLsWtjAMfQV7Z-6_6eKmZJakKTGIgsG--obHb59P6amBOYU6tOimbtw5C7zDhVHpyzJ1KWHCZ6T94kFrhMAlSUrO0k3ARlAJ0JaHHc6Zzu9OQoNorgP3qChSxy8ZOjwE_ldfyozmU=s0-d-e1-ft#http://res.cloudinary.com/grubhub-assets/image/upload/v1465244595/transactional_email/v3/logo_gh_2x.png"
+                        alt="grubhub logo" width="141" height="29"></a>
+      </center>
+    </columns>
+    <columns></columns>
+  </row>
+  <!--End of header-->
+  <!--Start of Greeting-->
+  <row>
+    <columns small="12">
+      <br>
+      <b>Hello Customer Name,</b>
+      <br>
+      <br>
+      <p>Your delivery order from <strong>Famous Famiglia Pizza</strong> is being prepared. Your food should arrive between <strong>7:35pm - 7:45pm.</strong></p>
+    </columns>
+  </row>
+  <!--End of Greeting-->
 
-  <spacer size="24"></spacer>
+  <!--Start of Order Tracking-->
+  <row>
+    <columns small="12">
+      <button href="#" class="radius large">Track your order</button>
+      <a href="#">
+        <img src="https://ci4.googleusercontent.com/proxy/CCDviwQ_lmPFQ3g3nHIikVxy9wkN9Wcy5NMhEqI19kiEPrXoD46vrRAEQUNxLGSuTINxbu9V3ByAjOgiFWqdt6olZ8zWBNkDXeWZtEBWmbUYS3LtgpvPl39_hykvY9_-FXVcnvv0McmPwp4j8kiXqJHo--YdW3qEgffvUUovXm8=s0-d-e1-ft#https://res.cloudinary.com/grubhub-marketing/image/upload/v1581366574/CRM/subscriptions/GH-TrackYourOrder.png" 
+          alt="download on app store or play store">
+      </a>
+    </columns>
+  </row>
+  <!--End of Order Tracking-->
+  <!--Start of Ordered from-->
+  <row>
+    <columns small="12">
+      <p>Ordered from</p>
+      <h2>Famous Famiglia Pizza</h2>
+      <p>Contact restaraunt for delivery issues (212) 737-7777</p>
+    </columns>
+  </row>
+  <!--End of Ordered from-->
+  <!--Start of Order-->
+  <row>
+    <columns small="12">
+      <p>Delivery (ASAP) to Customer Name, 3650 Old Dear Lane, APT 1E New York, NY</p>
+      <p>(917) 111-1111</p>
+    </columns>
+  </row>
   
   <row>
     <columns small="12">
-
-    <p class="lead">Hi there!</p>
-    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="https://get.foundation/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
-
-    <spacer size="16"></spacer>
-
-    <center>
-      <menu class="vertical">
-        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
-        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
-        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
-        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
-        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
-        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
-        <item href="{{root}}order.html" target="_blank">Order Template</item>
-        <item href="{{root}}password.html" target="_blank">Password Template</item>
-        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
-        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
-        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
-      </menu>
-    </center>
-
-    <spacer size="16"></spacer>
-
-    <p>Happy Coding,</p>
-    <p>The Foundation Team</p>
-
-
-    <spacer size="16"></spacer>
-
+      <hr size="1">
     </columns>
   </row>
+
+  <row>
+    <columns small="5" large="4">
+      <p class="text-left">Payment Method</p>
+      <p>Apple Pay - 1111</p>
+    </columns>
+    <columns small="5" large="4" class="small-offset-1 large-offset-4">
+      <p class="text-right"><strong>$20.55</strong></p>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12">
+      <hr size="1">
+    </columns>
+  </row>
+
+  <row>
+    <columns small="6" large="6">
+      <p class="text-left">Order Details</p>
+      <p>Nov 1, 2020 7:06:33pm</p>
+      <p><strong>#68981342-9613121</strong></p>
+    </columns>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="5" large="5">
+        <p class="text-left">1 Chicken Cutlet Parmigiana Hero</p>
+      </columns>
+      <columns small="5" large="4" class="small-offset-1 large-offset-3">
+        <p class="text-right">$9.95</p>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="5" large="5">
+        <p class="text-left">1 Garlic Knots</p>
+      </columns>
+      <columns small="5" large="4" class="small-offset-1 large-offset-3">
+        <p class="text-right">$2.50</p>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="5" large="5">
+        <p class="text-left">1 Canned Soda</p>
+        <ul>
+            <li>Sprite</li>
+            <li>"Seltzer if you have it please - sprite if not</li>
+        </ul>
+      </columns>
+      <columns small="5" large="4" class="small-offset-1 large-offset-3">
+        <p class="text-right">$1.75</p>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+    
+    <row>
+      <columns small="5" large="4" class="text-left">
+        <p>Items subtotal</p>
+        <p>Service fee</p>
+        <p>Sales tax</p>
+        <p>Tip</p>
+      </columns>
+      <columns small="5" large="4" class="small-offset-1 large-offset-4 ">
+        <p class="text-right">$14.20</p>
+        <p class="text-right">$1.00</p>
+        <p class="text-right">$1.35</p>
+        <p class="text-right">$4.00</p>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="5" large="4">
+        <p><strong>Total charge</strong></p>
+      </columns>
+      <columns small="5" large="4" class="small-offset-1">
+        <p class="text-right"><strong>$20.55</strong></p>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <p>For billing issues</p>
+        <a href="#">Get help</a>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+  <!--End of Order-->
+  <!--Start of Promotions-->
+    <row class="collapse">
+      <columns small="12" large="6">
+        <a href=#><img src="https://ci4.googleusercontent.com/proxy/AP8tIK6lOQg0B23fvvw_p3T2T0pey6LWR6q9Wb_Ow9DvER-D1HwZCiXFmOlZGUowgH7n2cpNOZ9fh3Ge8TQ0ztXTcBNHj1cGUG0IRBcIVqskg_MHgiDXAd2cmop9WdSa_XoBUnVe9lxd3UfQ4DTA7Xpc_Mo-8GUAMCJHxVOOLeNOEImXVHYRbIj4LnvsjdwnaDMiyq-_3TE=s0-d-e1-ft#https://res.cloudinary.com/grubhub-assets/image/upload/v1591111451/subscriptions/email-assets/GH_FooterModule-Transactional-HL-1.png"
+            alt="unlimited delivery promotion" >
+        </a>
+      </columns>
+      <columns small="12" large="6">
+        <a href=#><img src="https://ci3.googleusercontent.com/proxy/PI7TZbwx42pTBnCNZpZZZuzo-AqGFQtbh4FnFHDRo499gASE_FtNXjqOmvETkllbEI500GDAPgPlcoPmCjv-cYKGx49K2Kwc0RYqyYQWamWHAWs6KkrVvPXMuzhgihDxknFAF5qQgxCaZXy3iQhOYqfL-bjDx07a7forowQqkATQ5_Cc1PEmEwBmP1K6-aggpFkAa-cUUx0fFIbPZHaTEipjLjINoQ=s0-d-e1-ft#https://res.cloudinary.com/grubhub-marketing/image/upload/v1581448158/CRM/subscriptions/TransactionalEmail_Banners_640x400-GH_GiftCards-Purple.gif" 
+            alt="gift cards available" >
+        </a>
+      </columns>
+    </row>
+    
+    <row class="collapse">
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+  <!--End of Promotions-->
+  <!--Start of Footer-->
+    <row>
+      <columns small="2" large="1">
+        <img src="https://ci6.googleusercontent.com/proxy/gsx9_S5LwmSi0H3CLiD-0NecEp2w-e3BDCYfKxfbf0a6v6oGP2RSkBhfqvaKJ4VvFwLiXnxnYTcn9ZXZ-NUOXKKnK5yfbdbXYmkLALfKRQKs_pnjFX41843e65xwNOF0XYVPS5BIe7R4pd8TIasnAHGR=s0-d-e1-ft#https://res.cloudinary.com/grubhub-assets/image/upload/v1502140993/alexa_email/Grubhub-logo.png"
+          alt="grubhub logo">
+      </columns>
+      <columns small="9" large="11" class="footer-text">
+        <p style="padding-bottom: 0; margin-bottom: 0;">© 2020 Grubhub. All rights reserved. </p>
+        <p >This email was sent by GrubHub 111 W. Washington St., Suite 2100, Chicago, IL, 60602, USA</p>
+        <p>* Any changes you make to your order after it has been placed may result in additional charges.</p>
+        <p>* We sent you this email to give you the latest information about your Grubhub order. Please don't 
+          reply to this email — instead, to get in touch with us, visit our <a href="#">Help</a> page and let us know how we can help. </p>
+      </columns>
+    </row>
+
+    <row>
+      <columns small="12">
+        <hr size="1">
+      </columns>
+    </row>
+  <!--End of Footer-->
+  <!--End of Email-->
 </container>
-
-<spacer size="16"></spacer>
-
-<center>
-  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="https://zurb.com/">ZURB</a> </small>
-</center>
-
-<spacer size="16"></spacer>
-
